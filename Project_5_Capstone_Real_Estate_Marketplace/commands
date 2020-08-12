@@ -1,0 +1,26 @@
+
+
+docker run -v ~/Desktop/Nanodegree-Program-Udacity-Become-a-Blockchain-Developer/Project_5_Capstone_Real_Estate_Marketplace/zokrates/code/square:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+
+
+zokrates compile -i square.code
+
+
+zokrates setup 
+
+
+zokrates compute-witness -a 7 49
+
+
+zokrates generate-proof 
+
+
+zokrates export-verifier 
+
+
+
+https://rinkeby.opensea.io/assets/0x62f0e07A54a718fD6402B6EAfd06f9B7A8994a09/1
+
+https://rinkeby.opensea.io/assets/doben-v2
+
+
