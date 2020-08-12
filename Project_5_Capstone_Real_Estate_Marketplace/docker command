@@ -1,0 +1,26 @@
+
+
+docker run -v ~/Desktop/udacity_spaeter_hinzufuegen/Final_Project:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+
+
+zokrates compile -i square.code
+
+
+zokrates setup 
+
+
+zokrates compute-witness -a 3 9
+
+
+zokrates generate-proof 
+
+
+zokrates export-verifier 
+
+
+
+https://rinkeby.opensea.io/assets/0x918fa51F0ddedA345823E621246BA7dac296Be2b/1
+
+https://rinkeby.opensea.io/assets/unidentified-contract-v688
+
+
